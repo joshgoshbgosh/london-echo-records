@@ -25,6 +25,9 @@ li > a{
   font-weight: 100;
 
 }
+li > a:hover {
+  color: red;
+}
 li {
   list-style: none;
   margin-top: 5.5%;
@@ -51,7 +54,7 @@ ul {
   transform:scale(1);
   filter:blur(0px);
   opacity:1;
-  transition: 2s;
+  transition: 1s;
   font-weight: 400;
   /* box-shadow:0 8px 20px 0px rgba(0,0,0,0.125); */
 }
