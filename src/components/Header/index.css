@@ -1,9 +1,9 @@
-footer {
+header {
   width: 100%;
-}
-i {
+
 
 }
+
 .social {
   color:black;
   margin-right: 2%;
@@ -14,4 +14,47 @@ i {
   display:flex;
   justify-content: flex-end;
 
+}
+
+li > a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  margin-right: 35px;
+  letter-spacing: 3px;
+  font-weight: 100;
+
+}
+li {
+  list-style: none;
+  margin-top: 5.5%;
+
+}
+a > img {
+  width: 140px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.list-wrap:hover .list{
+  filter:blur(1px);
+  opacity:.5;
+  transform: scale(.98);
+  box-shadow:none;
+
+
+}
+.list-wrap:hover .list:hover {
+  transform:scale(1);
+  filter:blur(0px);
+  opacity:1;
+  transition: 2s;
+  font-weight: 400;
+  /* box-shadow:0 8px 20px 0px rgba(0,0,0,0.125); */
+}
+.list {
+  transition: 1s;
 }
