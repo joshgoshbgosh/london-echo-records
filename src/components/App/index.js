@@ -12,7 +12,7 @@ render(){
 
   return (
     <React.Fragment>
-
+      <Header/>
     <div className="App">
       <Switch>
         <Route path='/'component={Home} exact/>

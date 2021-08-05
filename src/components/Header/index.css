@@ -1,0 +1,17 @@
+footer {
+  width: 100%;
+}
+i {
+
+}
+.social {
+  color:black;
+  margin-right: 2%;
+  margin-top: 1%;
+
+}
+.social-media {
+  display:flex;
+  justify-content: flex-end;
+
+}
