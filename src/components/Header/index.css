@@ -4,16 +4,106 @@ header {
 
 }
 
+
+
 .social {
   color:black;
   margin-right: 2%;
   margin-top: 1%;
 
-}
-.social-media {
-  display:flex;
-  justify-content: flex-end;
 
+}
+
+
+.icon-one {
+  display: flex;
+  justify-content: center;
+}
+.icon-two {
+  display: flex;
+  justify-content: center;
+}
+.one {
+  /* padding-right: 50px; */
+ position:relative;
+ right: 25px;
+
+}
+.two {
+ position:relative;
+ left: 25px;
+}
+.icon-three {
+  display: flex;
+  justify-content: center;
+}
+.three {
+  /* padding-right: 120px; */
+ position:relative;
+ right: 65px;
+}
+.four {
+  position:relative;
+  left: 65px;
+}
+.icon-four {
+  display: flex;
+  justify-content: center;
+}
+.five {
+  position:relative;
+  right:25px;
+  /* padding-right: 50px; */
+}
+.six{
+  position:relative;
+  left: 25px;
+}
+.icon-five{
+  display: flex;
+  justify-content: center;
+}
+
+.eight:hover {
+  transition: 2s;
+  transform: rotate(360deg);
+  color:black;
+
+}
+.one:hover {
+  transition: 2s;
+  transform: rotate(360deg);
+  color:black;
+}
+.two:hover {
+  transition: 2s;
+  transform: rotate(360deg);
+  color:black;
+}
+.three:hover {
+  transition: 2s;
+  transform: rotate(360deg);
+  color:black;
+}
+.four:hover {
+  transition: 2s;
+  transform: rotate(360deg);
+  color:black;
+}
+.five:hover {
+  transition: 2s;
+  transform: rotate(360deg);
+  color:black;
+}
+.six:hover {
+  transition: 2s;
+  transform: rotate(360deg);
+  color:black;
+}
+.seven:hover {
+  transition: 2s;
+  transform: rotate(360deg);
+  color:black;
 }
 
 li > a{
