@@ -122,6 +122,8 @@ li > a{
 }
 li > a:hover {
   color: red;
+  
+  transition: 2s;
 }
 li {
   list-style: none;

@@ -31,7 +31,7 @@ function Header(props){
         <ul className="list-wrap">
           <li><a className="list"href="#">HOME</a></li>
           <li><a className="list"href="#">ABOUT</a></li>
-          <li><a className="list"href="#">GEAR</a></li>
+          <li><a className="list"href="#">STUDIO</a></li>
           <li><a className="list"href="#">CONTACT</a></li>
         </ul>
       </nav>
