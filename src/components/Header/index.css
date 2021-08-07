@@ -13,7 +13,12 @@ header {
 
 
 }
-
+.background-social {
+  background-image: url('./../../images/background-social.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .icon-one {
   display: flex;

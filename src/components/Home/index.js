@@ -6,6 +6,7 @@ import beatlesSlide from './../../images/beatlesSlide.jpg';
 import coldplaySlide from './../../images/coldplaySlide.jpg';
 import lumineersSlide from './../../images/lumineersSlide.jpg';
 import utwoSlide from './../../images/utwoSlide.jpg';
+import kacy from './../../images/kacy.jpeg';
 import './index.css';
 
 class Home extends Component {
@@ -52,6 +53,7 @@ class Home extends Component {
 
 </Carousel.Item>
 </Carousel>
+
       </div>
 
 
