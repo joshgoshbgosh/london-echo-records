@@ -10,6 +10,7 @@ import lumineersSlide from './../../images/lumineersSlide.jpg';
 import utwoSlide from './../../images/utwoSlide.jpg';
 import kacy from './../../images/kacy.jpeg';
 import asmith from './../../images/asmith.jpg';
+import birdy from './../../images/birdy.jpg';
 import max_martin from './../../images/max_martin.jpeg';
 import './index.css';
 
@@ -68,6 +69,12 @@ class Home extends Component {
         London Echo is excited to add songwriter and producer Max Martin to the studio to
         work along side our up coming artist working on their forth coming projects.
       </Card.Text>
+      <div className="card-icons">
+        <a className="card-social" href="#"><i class="fab fa-instagram"></i></a>
+        <a className="card-social" href="#"><i class="fab fa-twitter"></i></a>
+        <a className="card-social" href="#"><i class="fab fa-spotify"></i></a>
+      </div>
+
     </Card.Body>
 
   </Card>
@@ -80,24 +87,34 @@ class Home extends Component {
         due to be released in the fall.  Steven Tyler says it's different then anything they have
         released before.
       </Card.Text>
+      <div className="card-icons">
+        <a className="card-social" href="#"><i class="fab fa-instagram"></i></a>
+        <a className="card-social" href="#"><i class="fab fa-twitter"></i></a>
+        <a className="card-social" href="#"><i class="fab fa-spotify"></i></a>
+      </div>
     </Card.Body>
-    
+
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src={birdy} />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Birdy</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
+        Check out the live session recorded at the London Echo studio by Birdy.  Performing
+        songs from her album "Young Heart", giving her fans an intimate performance.
       </Card.Text>
+      <div className="card-icons">
+        <a className="card-social" href="#"><i class="fab fa-instagram"></i></a>
+        <a className="card-social" href="#"><i class="fab fa-twitter"></i></a>
+        <a className="card-social" href="#"><i class="fab fa-spotify"></i></a>
+      </div>
     </Card.Body>
-    <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
-    </Card.Footer>
+
   </Card>
 </CardGroup>
+<div className="space">
+</div>
+
 
       </div>
 
