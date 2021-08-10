@@ -12,6 +12,9 @@ import kacy from './../../images/kacy.jpeg';
 import asmith from './../../images/asmith.jpg';
 import birdy from './../../images/birdy.jpg';
 import max_martin from './../../images/max_martin.jpeg';
+import bon from './../../images/bon.jpg';
+import dashb from './../../images/dashb.jpg';
+import zeros from './../../images/zeros.jpg';
 import './index.css';
 
 class Home extends Component {
@@ -114,6 +117,57 @@ class Home extends Component {
 </CardGroup>
 <div className="space">
 </div>
+<CardGroup>
+  <Card>
+    <Card.Img variant="top" src={dashb} />
+    <Card.Body>
+      <Card.Title>Dashboard Confessional</Card.Title>
+      <Card.Text>
+        Chris wrapping up his studio sessions for Dashboard Confessional.   The album is set to be released
+         early next year.  The fans are excited to hear the music.
+      </Card.Text>
+      <div className="card-icons">
+        <a className="card-social" href="#"><i class="fab fa-instagram"></i></a>
+        <a className="card-social" href="#"><i class="fab fa-twitter"></i></a>
+        <a className="card-social" href="#"><i class="fab fa-spotify"></i></a>
+      </div>
+
+    </Card.Body>
+
+  </Card>
+  <Card>
+    <Card.Img variant="top" src={bon} />
+    <Card.Body>
+      <Card.Title>Bon Iver</Card.Title>
+      <Card.Text>
+        Bon Iver still struggling to keep his head above water.  Bon says finding the middle ground with
+        his fans is getting more difficult since the colaberation with Taylor Swift.   
+      </Card.Text>
+      <div className="card-icons">
+        <a className="card-social" href="#"><i class="fab fa-instagram"></i></a>
+        <a className="card-social" href="#"><i class="fab fa-twitter"></i></a>
+        <a className="card-social" href="#"><i class="fab fa-spotify"></i></a>
+      </div>
+    </Card.Body>
+
+  </Card>
+  <Card>
+    <Card.Img variant="top" src={zeros} />
+    <Card.Body>
+      <Card.Title>Edward Sharpe & The Magnetic Zeros</Card.Title>
+      <Card.Text>
+        Check out the live session recorded at the London Echo studio by Birdy.  Performing
+        songs from her album "Young Heart", giving her fans an intimate performance.
+      </Card.Text>
+      <div className="card-icons">
+        <a className="card-social" href="#"><i class="fab fa-instagram"></i></a>
+        <a className="card-social" href="#"><i class="fab fa-twitter"></i></a>
+        <a className="card-social" href="#"><i class="fab fa-spotify"></i></a>
+      </div>
+    </Card.Body>
+
+  </Card>
+</CardGroup>
 
 
       </div>
