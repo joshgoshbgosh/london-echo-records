@@ -4,6 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import {Link} from 'react-router-dom';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
+import sboard from './../../images/sboard.jpeg';
 import beatlesSlide from './../../images/beatlesSlide.jpg';
 import coldplaySlide from './../../images/coldplaySlide.jpg';
 import lumineersSlide from './../../images/lumineersSlide.jpg';
@@ -73,9 +74,9 @@ class Home extends Component {
         work along side our up coming artist working on their forth coming projects.
       </Card.Text>
       <div className="card-icons">
-        <a className="card-social" href="#"><i class="fab fa-instagram"></i></a>
-        <a className="card-social" href="#"><i class="fab fa-twitter"></i></a>
-        <a className="card-social" href="#"><i class="fab fa-spotify"></i></a>
+        <a className="card-social" href="https://www.instagram.com/aerosmith/"target="blank"><i class="fab fa-instagram"></i></a>
+        <a className="card-social" href="https://twitter.com/?lang=en"target="_blank"><i class="fab fa-twitter"></i></a>
+        <a className="card-social" href="https://www.spotify.com/us/"target="_blank"><i class="fab fa-spotify"></i></a>
       </div>
 
     </Card.Body>
@@ -91,9 +92,9 @@ class Home extends Component {
         released before.
       </Card.Text>
       <div className="card-icons">
-        <a className="card-social" href="#"><i class="fab fa-instagram"></i></a>
-        <a className="card-social" href="#"><i class="fab fa-twitter"></i></a>
-        <a className="card-social" href="#"><i class="fab fa-spotify"></i></a>
+        <a className="card-social" href="https://www.instagram.com/aerosmith/"target="blank"><i class="fab fa-instagram"></i></a>
+        <a className="card-social" href="https://twitter.com/?lang=en"target="_blank"><i class="fab fa-twitter"></i></a>
+        <a className="card-social" href="https://www.spotify.com/us/"target="_blank"><i class="fab fa-spotify"></i></a>
       </div>
     </Card.Body>
 
@@ -107,9 +108,9 @@ class Home extends Component {
         songs from her album "Young Heart", giving her fans an intimate performance.
       </Card.Text>
       <div className="card-icons">
-        <a className="card-social" href="#"><i class="fab fa-instagram"></i></a>
-        <a className="card-social" href="#"><i class="fab fa-twitter"></i></a>
-        <a className="card-social" href="#"><i class="fab fa-spotify"></i></a>
+        <a className="card-social" href="https://www.instagram.com/birdymusic/"target="blank"><i class="fab fa-instagram"></i></a>
+        <a className="card-social" href="https://twitter.com/?lang=en"target="_blank"><i class="fab fa-twitter"></i></a>
+        <a className="card-social" href="https://www.spotify.com/us/"target="_blank"><i class="fab fa-spotify"></i></a>
       </div>
     </Card.Body>
 
@@ -127,9 +128,9 @@ class Home extends Component {
          early next year.  The fans are excited to hear the music.
       </Card.Text>
       <div className="card-icons">
-        <a className="card-social" href="#"><i class="fab fa-instagram"></i></a>
-        <a className="card-social" href="#"><i class="fab fa-twitter"></i></a>
-        <a className="card-social" href="#"><i class="fab fa-spotify"></i></a>
+        <a className="card-social" href="https://www.instagram.com/dashboardconfessional"target="blank"><i class="fab fa-instagram"></i></a>
+        <a className="card-social" href="https://twitter.com/?lang=en"target="_blank"><i class="fab fa-twitter"></i></a>
+        <a className="card-social" href="https://www.spotify.com/us/"target="_blank"><i class="fab fa-spotify"></i></a>
       </div>
 
     </Card.Body>
@@ -140,13 +141,14 @@ class Home extends Component {
     <Card.Body>
       <Card.Title>Bon Iver</Card.Title>
       <Card.Text>
-        Bon Iver still struggling to keep his head above water.  Bon says finding the middle ground with
-        his fans is getting more difficult since the colaberation with Taylor Swift.   
+        Bon Iver collaberates with Taylor Swift again.  The new track recorded in London Echo will debute
+        on Taylors next release.  Excited to collaberate again since the prior single got positive reviews.
+
       </Card.Text>
       <div className="card-icons">
-        <a className="card-social" href="#"><i class="fab fa-instagram"></i></a>
-        <a className="card-social" href="#"><i class="fab fa-twitter"></i></a>
-        <a className="card-social" href="#"><i class="fab fa-spotify"></i></a>
+        <a className="card-social" href="https://www.instagram.com/boniver/"target="blank"><i class="fab fa-instagram"></i></a>
+        <a className="card-social" href="https://twitter.com/?lang=en"target="_blank"><i class="fab fa-twitter"></i></a>
+        <a className="card-social" href="https://www.spotify.com/us/"target="_blank"><i class="fab fa-spotify"></i></a>
       </div>
     </Card.Body>
 
@@ -156,18 +158,21 @@ class Home extends Component {
     <Card.Body>
       <Card.Title>Edward Sharpe & The Magnetic Zeros</Card.Title>
       <Card.Text>
-        Check out the live session recorded at the London Echo studio by Birdy.  Performing
-        songs from her album "Young Heart", giving her fans an intimate performance.
+        Ready to get back on the road since the reopening of the music scene,  Edward Sharpe & The
+        Magnetic Zeros are getting tour ready for the upcoming festivals.
       </Card.Text>
       <div className="card-icons">
-        <a className="card-social" href="#"><i class="fab fa-instagram"></i></a>
-        <a className="card-social" href="#"><i class="fab fa-twitter"></i></a>
-        <a className="card-social" href="#"><i class="fab fa-spotify"></i></a>
+        <a className="card-social" href="https://www.instagram.com/esmzeros/"target="blank"><i class="fab fa-instagram"></i></a>
+        <a className="card-social" href="https://twitter.com/?lang=en"target="_blank"><i class="fab fa-twitter"></i></a>
+        <a className="card-social" href="https://www.spotify.com/us/"target="_blank"><i class="fab fa-spotify"></i></a>
       </div>
     </Card.Body>
 
   </Card>
 </CardGroup>
+<div className="space">
+</div>
+
 
 
       </div>
