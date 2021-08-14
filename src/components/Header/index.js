@@ -4,6 +4,7 @@ import headermic from './../../images/headermic.png';
 import './index.css';
 
 function Header(props){
+  
   return(
     <header>
     <div className="background-social">
@@ -28,7 +29,7 @@ function Header(props){
       </div>
       <nav className="menu">
 
-        <ul className="list-wrap">
+        <ul  id="nav_bar"className="list-wrap">
           <li><a className="list"href="#">HOME</a></li>
           <li><a className="list"href="#">ABOUT</a></li>
           <li><a className="list"href="#">STUDIO</a></li>
