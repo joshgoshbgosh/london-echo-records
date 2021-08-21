@@ -4,7 +4,7 @@ import headermic from './../../images/headermic.png';
 import './index.css';
 
 function Header(props){
-  
+
   return(
     <header>
     <div className="background-social">

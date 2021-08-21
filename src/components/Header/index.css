@@ -1,7 +1,7 @@
 header {
   /* position: static; */
   width: 100%;
-  /* top: 0;
+   /* top: 0;
   position: sticky;
   position: -webkit-sticky;
 
@@ -10,11 +10,11 @@ z-index: 100; */
 }
 nav {
   background-color: white;
-  top: 0;
+  /* top: 0;
   position: sticky;
   position: -webkit-sticky;
 
-z-index: 100;
+z-index: 100; */
 
 }
 
@@ -130,6 +130,7 @@ li > a{
   font-size: 14px;
   margin-right: 35px;
   letter-spacing: 2px;
+
   font-weight: 100;
 
 }
@@ -140,7 +141,8 @@ li > a:hover {
 }
 li {
   list-style: none;
-  margin-top: 5.5%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 
 }
 a > img {
