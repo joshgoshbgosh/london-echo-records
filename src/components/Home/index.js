@@ -24,6 +24,12 @@ import shirley from './../../images/shirley.jpg';
 import jones from './../../images/jones.jpg';
 import lord from './../../images/lord.jpg';
 import radio from './../../images/radio.jpg';
+import studio from './../../images/studio.jpg';
+import studiotwo from './../../images/studiotwo.jpg';
+import studiothree from './../../images/studiothree.jpg';
+import studiofour from './../../images/studiofour.jpg';
+import studiofive from './../../images/studiofive.jpg';
+import studiosix from './../../images/studiosix.jpg';
 
 import './index.css';
 
@@ -264,21 +270,72 @@ artists from James Bay, Jess Glynne, George Ezra and Skrillex to legends like Ni
 Symbolic of this new era, in March 2018, <span className="special">London Echo</span> appointed multiple Grammy
 Award winning producer, guitarist, arranger and composer Nile Rodgers (of The
   CHIC Organization) to the specially created role of Chief Creative Advisor.
-   The role sees Nile establish <span className="special">London Echo</span>as his primary creative base in
+   The role sees Nile establish <span className="special">London Echo</span> as his primary creative base in
    the UK and serve as the studios’ global ambassador within the artist
    and creative community.  Enhancing the services to film clients, a new
    Dolby Atmos Premier accredited Mix Stage also opened in 2017, making
     <span className="special">London Echo</span> the only facility in the UK to offer both scoring and film
     sound post production.  The pioneering spirit of the REDD department’s
-     innovations from the 1950s to 1970s continues with <span className="special">London Echo</span>Red –
+     innovations from the 1950s to 1970s continues with <span className="special">London Echo</span> Red –
      Europe’s first music-focused technology incubator, which supports the
      endeavours of entrepreneurs, researchers and developers. The programme
      is now expanding with in-house R&D activities within the music creation space.
-<span className="special">London Echo</span> was declared an English Heritage Grade II listed site in 2010, but 
+<span className="special">London Echo</span> was declared an English Heritage Grade II listed site in 2010, but
 the focus continues to be on the future and helping to spread the expertise and
 knowledge present within the building to a new generation of musicians, engineers
 and producers around the world.
 </p>
+<div className="studio">
+<Carousel fade>
+<Carousel.Item interval={3000}>
+  <img
+    className="d-block w-100"
+    src={studio}
+  />
+
+</Carousel.Item>
+<Carousel.Item interval={3000}>
+  <img
+    className="d-block w-100"
+    src={studiotwo}
+  />
+
+
+</Carousel.Item>
+<Carousel.Item interval={3000}>
+  <img
+    className="d-block w-100"
+    src={studiothree}
+  />
+
+
+</Carousel.Item>
+<Carousel.Item interval={3000}>
+  <img
+    className="d-block w-100"
+    src={studiofour}
+  />
+
+
+</Carousel.Item>
+<Carousel.Item interval={3000}>
+  <img
+    className="d-block w-100"
+    src={studiofive}
+  />
+
+
+</Carousel.Item>
+<Carousel.Item interval={3000}>
+  <img
+    className="d-block w-100"
+    src={studiosix}
+  />
+
+
+</Carousel.Item>
+</Carousel>
+</div>
       </div>
 
 
