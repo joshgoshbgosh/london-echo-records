@@ -286,6 +286,13 @@ knowledge present within the building to a new generation of musicians, engineer
 and producers around the world.
 </p>
 <div className="studio">
+ <div className="studio-heading">
+  <p className="studio-name">S<span className="special">T</span>UDIO</p>
+  <i class="far fa-circle circleone"></i>
+  <i class="far fa-circle circletwo"></i>
+  <i class="far fa-circle circlethree"></i>
+  <i class="far fa-circle circlefour"></i>
+ </div>
 <Carousel fade>
 <Carousel.Item interval={3000}>
   <img
@@ -335,7 +342,124 @@ and producers around the world.
 
 </Carousel.Item>
 </Carousel>
+<div className="space">
 </div>
+<CardGroup>
+  <Card>
+    <Card.Img variant="top" src={max_martin} />
+    <Card.Body>
+      <Card.Title>Max Martin</Card.Title>
+
+
+    </Card.Body>
+
+  </Card>
+  <Card>
+    <Card.Img variant="top" src={asmith} />
+    <Card.Body>
+      <Card.Title>Aerosmith</Card.Title>
+
+    </Card.Body>
+
+  </Card>
+  <Card>
+    <Card.Img variant="top" src={birdy} />
+    <Card.Body>
+      <Card.Title>Birdy</Card.Title>
+
+    </Card.Body>
+
+  </Card>
+</CardGroup>
+<div className="space">
+</div>
+<CardGroup>
+  <Card>
+    <Card.Img variant="top" src={max_martin} />
+    <Card.Body>
+      <Card.Title>Max Martin</Card.Title>
+
+
+    </Card.Body>
+
+  </Card>
+  <Card>
+    <Card.Img variant="top" src={asmith} />
+    <Card.Body>
+      <Card.Title>Aerosmith</Card.Title>
+
+    </Card.Body>
+
+  </Card>
+  <Card>
+    <Card.Img variant="top" src={birdy} />
+    <Card.Body>
+      <Card.Title>Birdy</Card.Title>
+
+    </Card.Body>
+
+  </Card>
+</CardGroup>
+<div className="space">
+</div>
+<CardGroup>
+  <Card>
+    <Card.Img variant="top" src={max_martin} />
+    <Card.Body>
+      <Card.Title>Max Martin</Card.Title>
+
+
+    </Card.Body>
+
+  </Card>
+  <Card>
+    <Card.Img variant="top" src={asmith} />
+    <Card.Body>
+      <Card.Title>Aerosmith</Card.Title>
+
+    </Card.Body>
+
+  </Card>
+  <Card>
+    <Card.Img variant="top" src={birdy} />
+    <Card.Body>
+      <Card.Title>Birdy</Card.Title>
+
+    </Card.Body>
+
+  </Card>
+</CardGroup>
+<div className="space">
+</div>
+<CardGroup>
+  <Card>
+    <Card.Img variant="top" src={max_martin} />
+    <Card.Body>
+      <Card.Title>Max Martin</Card.Title>
+
+
+    </Card.Body>
+
+  </Card>
+  <Card>
+    <Card.Img variant="top" src={asmith} />
+    <Card.Body>
+      <Card.Title>Aerosmith</Card.Title>
+
+    </Card.Body>
+
+  </Card>
+  <Card>
+    <Card.Img variant="top" src={birdy} />
+    <Card.Body>
+      <Card.Title>Birdy</Card.Title>
+
+    </Card.Body>
+
+  </Card>
+</CardGroup>
+</div>
+
       </div>
 
 

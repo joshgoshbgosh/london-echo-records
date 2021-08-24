@@ -30,3 +30,29 @@ margin: 2%;
 .special {
   color: red;
 }
+.studio-name {
+  text-align: center;
+  font-weight: 200;
+
+  letter-spacing: 3px;
+  font-size: 23px;
+
+}
+.fa-circle {
+  margin-left: 1%;
+  margin-top: 12px;
+  font-size: 10px;
+}
+.studio-heading {
+  display:flex;
+  justify-content: center;
+}
+.circleone {
+  color: red;
+}
+.circletwo {
+  color: blue;
+}
+.circlethree {
+  color: green;
+}
