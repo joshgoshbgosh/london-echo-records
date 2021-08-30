@@ -30,7 +30,14 @@ import studiothree from './../../images/studiothree.jpg';
 import studiofour from './../../images/studiofour.jpg';
 import studiofive from './../../images/studiofive.jpg';
 import studiosix from './../../images/studiosix.jpg';
-
+import studiobox from './../../images/studiobox.jpg';
+import mic from './../../images/mic.jpg';
+import marshall from './../../images/marshall.jpg';
+import fender from './../../images/fender.jpg';
+import standup from './../../images/standup.jpg';
+import bass from './../../images/bass.jpg';
+import studioboxboard from './../../images/studioboxboard.jpg';
+import studioboxdrum from './../../images/studioboxdrum.jpg';
 import './index.css';
 
 class Home extends Component {
@@ -346,55 +353,26 @@ and producers around the world.
 </div>
 <CardGroup>
   <Card>
-    <Card.Img variant="top" src={max_martin} />
+    <Card.Img variant="top" src={studiobox} />
     <Card.Body>
-      <Card.Title>Max Martin</Card.Title>
+      <Card.Title>Grand Piano</Card.Title>
 
 
     </Card.Body>
 
   </Card>
   <Card>
-    <Card.Img variant="top" src={asmith} />
+    <Card.Img variant="top" src={mic} />
     <Card.Body>
-      <Card.Title>Aerosmith</Card.Title>
+      <Card.Title>Neumann U 87</Card.Title>
 
     </Card.Body>
 
   </Card>
   <Card>
-    <Card.Img variant="top" src={birdy} />
+    <Card.Img variant="top" src={marshall} />
     <Card.Body>
-      <Card.Title>Birdy</Card.Title>
-
-    </Card.Body>
-
-  </Card>
-</CardGroup>
-<div className="space">
-</div>
-<CardGroup>
-  <Card>
-    <Card.Img variant="top" src={max_martin} />
-    <Card.Body>
-      <Card.Title>Max Martin</Card.Title>
-
-
-    </Card.Body>
-
-  </Card>
-  <Card>
-    <Card.Img variant="top" src={asmith} />
-    <Card.Body>
-      <Card.Title>Aerosmith</Card.Title>
-
-    </Card.Body>
-
-  </Card>
-  <Card>
-    <Card.Img variant="top" src={birdy} />
-    <Card.Body>
-      <Card.Title>Birdy</Card.Title>
+      <Card.Title>JCM 800</Card.Title>
 
     </Card.Body>
 
@@ -404,18 +382,47 @@ and producers around the world.
 </div>
 <CardGroup>
   <Card>
-    <Card.Img variant="top" src={max_martin} />
+    <Card.Img variant="top" src={fender} />
     <Card.Body>
-      <Card.Title>Max Martin</Card.Title>
+      <Card.Title>Fender</Card.Title>
 
 
     </Card.Body>
 
   </Card>
   <Card>
-    <Card.Img variant="top" src={asmith} />
+    <Card.Img variant="top" src={standup} />
     <Card.Body>
-      <Card.Title>Aerosmith</Card.Title>
+      <Card.Title>Stand Up</Card.Title>
+
+    </Card.Body>
+
+  </Card>
+  <Card>
+    <Card.Img variant="top" src={bass} />
+    <Card.Body>
+      <Card.Title>Fender Jazz Bass</Card.Title>
+
+    </Card.Body>
+
+  </Card>
+</CardGroup>
+<div className="space">
+</div>
+<CardGroup>
+  <Card>
+    <Card.Img variant="top" src={studioboxdrum} />
+    <Card.Body>
+      <Card.Title>DW Performance Series</Card.Title>
+
+
+    </Card.Body>
+
+  </Card>
+  <Card>
+    <Card.Img variant="top" src={studioboxboard} />
+    <Card.Body>
+      <Card.Title>Rupert Neve</Card.Title>
 
     </Card.Body>
 
