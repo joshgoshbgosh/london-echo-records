@@ -38,6 +38,10 @@ import standup from './../../images/standup.jpg';
 import bass from './../../images/bass.jpg';
 import studioboxboard from './../../images/studioboxboard.jpg';
 import studioboxdrum from './../../images/studioboxdrum.jpg';
+import lespaul from './../../images/lespaul.jpg';
+import acoustic from './../../images/acoustic.jpg';
+import studiomusicians from './../../images/studiomusicians.jpg';
+import writers from './../../images/writers.jpg';
 import './index.css';
 
 class Home extends Component {
@@ -428,9 +432,9 @@ and producers around the world.
 
   </Card>
   <Card>
-    <Card.Img variant="top" src={birdy} />
+    <Card.Img variant="top" src={lespaul} />
     <Card.Body>
-      <Card.Title>Birdy</Card.Title>
+      <Card.Title>Les Paul</Card.Title>
 
     </Card.Body>
 
@@ -440,26 +444,26 @@ and producers around the world.
 </div>
 <CardGroup>
   <Card>
-    <Card.Img variant="top" src={max_martin} />
+    <Card.Img variant="top" src={studiomusicians} />
     <Card.Body>
-      <Card.Title>Max Martin</Card.Title>
+      <Card.Title>Studio Musicians</Card.Title>
 
 
     </Card.Body>
 
   </Card>
   <Card>
-    <Card.Img variant="top" src={asmith} />
+    <Card.Img variant="top" src={acoustic} />
     <Card.Body>
-      <Card.Title>Aerosmith</Card.Title>
+      <Card.Title>Gibson J45</Card.Title>
 
     </Card.Body>
 
   </Card>
   <Card>
-    <Card.Img variant="top" src={birdy} />
+    <Card.Img variant="top" src={writers} />
     <Card.Body>
-      <Card.Title>Birdy</Card.Title>
+      <Card.Title>Songwriters</Card.Title>
 
     </Card.Body>
 
