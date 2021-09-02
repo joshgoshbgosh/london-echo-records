@@ -58,3 +58,20 @@ margin: 2%;
 .circlethree {
   color: green;
 }
+.contact {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.intouch {
+  font-weight: 300;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.getInTouch {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.buttonDiv {
+  text-align: center;
+}

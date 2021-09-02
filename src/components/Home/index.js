@@ -4,6 +4,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import {Link} from 'react-router-dom';
 import Image from 'react-bootstrap/Image';
 import CardGroup from 'react-bootstrap/CardGroup';
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import sboard from './../../images/sboard.jpeg';
 import beatlesSlide from './../../images/beatlesSlide.jpg';
@@ -46,7 +48,7 @@ import './index.css';
 
 class Home extends Component {
   render() {
-
+    
     return (
       <div>
 
@@ -463,12 +465,32 @@ and producers around the world.
   <Card>
     <Card.Img variant="top" src={writers} />
     <Card.Body>
-      <Card.Title>Songwriters</Card.Title>
+      <Card.Title>Mastering</Card.Title>
 
     </Card.Body>
 
   </Card>
 </CardGroup>
+</div>
+<div className="contact">
+ <div className="getInTouch">
+  <h4 className="intouch">C<span className="special">o</span>nt<span className="special">a</span>ct</h4>
+ </div>
+<Form>
+  <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+
+    <Form.Control type="email" placeholder="email address" />
+  </Form.Group>
+  <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+
+    <Form.Control as="textarea" rows={3} placeholder="message"/>
+  </Form.Group>
+</Form>
+<div className="buttonDiv">
+
+<Button variant="danger"onclick="location.reload();">Send</Button>
+
+</div>
 </div>
 
       </div>

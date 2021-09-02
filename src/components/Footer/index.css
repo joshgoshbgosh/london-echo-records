@@ -1,0 +1,14 @@
+.footerpic {
+  background-image: url('./../../images/background-social.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+  margin-top:
+}
+.strd {
+ position:relative;
+ top: 50px;
+ width: 150px;
+ right: 20px;
+}

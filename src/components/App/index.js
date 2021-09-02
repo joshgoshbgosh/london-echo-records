@@ -8,7 +8,7 @@ import './index.css';
 class App extends Component {
 
 render(){
-  
+
 
   return (
     <React.Fragment>
@@ -19,7 +19,7 @@ render(){
 
       </Switch>
     </div>
-
+    <Footer/>
     </React.Fragment>
   );
 }
