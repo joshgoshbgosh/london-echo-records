@@ -51,9 +51,14 @@ class Home extends Component {
 
     return (
       <div>
-
-
-      <Carousel fade>
+      <div className="dots">
+      <a className="dothome sidenav"href="#section1"><i class="fas fa-circle"></i></a>
+      <a className="dotabout sidenav"href="#section2"><i class="fas fa-circle"></i></a>
+      <a className="dotstudio sidenav"href="#section3"><i class="fas fa-circle"></i></a>
+      <a className="dotcontact sidenav"href="#section4"><i class="fas fa-circle"></i></a>
+      </div>
+<div id="section1">
+      <Carousel fade className="cara">
 <Carousel.Item interval={4000}>
   <img
     className="d-block w-100"
@@ -198,8 +203,10 @@ class Home extends Component {
 
   </Card>
 </CardGroup>
+</div>
 <div className="space">
 </div>
+<div id="section2">
 <div className="about">
   <div className="history">
     <Image src={history} fluid/>
@@ -298,6 +305,8 @@ the focus continues to be on the future and helping to spread the expertise and
 knowledge present within the building to a new generation of musicians, engineers
 and producers around the world.
 </p>
+</div>
+<div id="section3">
 <div className="studio">
  <div className="studio-heading">
   <p className="studio-name">S<span className="special">T</span>UDIO</p>
@@ -472,6 +481,8 @@ and producers around the world.
   </Card>
 </CardGroup>
 </div>
+</div>
+<div id="section4">
 <div className="contact">
  <div className="getInTouch">
   <h4 className="intouch">C<span className="special">o</span>nt<span className="special">a</span>ct</h4>
@@ -490,6 +501,7 @@ and producers around the world.
 
 <Button variant="danger"onClick={() => window.location.reload(false)}>Send</Button>
 
+</div>
 </div>
 </div>
 

@@ -30,10 +30,10 @@ function Header(props){
       <nav className="menu">
 
         <ul  id="nav_bar"className="list-wrap">
-          <li><a className="list"href="#">HOME</a></li>
-          <li><a className="list"href="#">ABOUT</a></li>
-          <li><a className="list"href="#">STUDIO</a></li>
-          <li><a className="list"href="#">CONTACT</a></li>
+          <li><a className="list"href="#section1">HOME</a></li>
+          <li><a className="list"href="#section2">ABOUT</a></li>
+          <li><a className="list"href="#section3">STUDIO</a></li>
+          <li><a className="list"href="#section4">CONTACT</a></li>
         </ul>
       </nav>
     </header>
