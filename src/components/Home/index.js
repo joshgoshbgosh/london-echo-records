@@ -48,7 +48,7 @@ import './index.css';
 
 class Home extends Component {
   render() {
-    
+
     return (
       <div>
 
@@ -488,7 +488,7 @@ and producers around the world.
 </Form>
 <div className="buttonDiv">
 
-<Button variant="danger"onclick="location.reload();">Send</Button>
+<Button variant="danger"onClick={() => window.location.reload(false)}>Send</Button>
 
 </div>
 </div>
