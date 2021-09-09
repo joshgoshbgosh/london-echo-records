@@ -52,10 +52,10 @@ class Home extends Component {
     return (
       <div>
       <div className="dots">
-      <a className="dothome sidenav"href="#section1"><i class="fas fa-circle"></i></a>
-      <a className="dotabout sidenav"href="#section2"><i class="fas fa-circle"></i></a>
-      <a className="dotstudio sidenav"href="#section3"><i class="fas fa-circle"></i></a>
-      <a className="dotcontact sidenav"href="#section4"><i class="fas fa-circle"></i></a>
+      <a className="dothome sidenav"href="#section1"><i class="fas fa-home"></i></a>
+      <a className="dotabout sidenav"href="#section2"><i class="far fa-address-card"></i></a>
+      <a className="dotstudio sidenav"href="#section3"><i class="fas fa-guitar"></i></a>
+      <a className="dotcontact sidenav"href="#section4"><i class="fas fa-envelope"></i></a>
       </div>
 <div id="section1">
       <Carousel fade className="cara">

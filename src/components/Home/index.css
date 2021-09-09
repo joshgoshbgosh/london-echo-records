@@ -83,20 +83,44 @@ margin: 2%;
 
 }
 .cara {
-  margin-top: -25%;
+  margin-top: -32%;
 }
 .sidenav{
   color:red;
-  font-size: 13px;
+  font-size: 23px;
   margin-top: 2%;
-  margin-bottom:4.2%;
+  margin-bottom:5.9%;
   text-align: right;
   margin-right: 10%;
 }
 .sidenav:hover {
   color:red;
 }
-.fa-circle {
+.fa-home  {
+  position:fixed;
+  /* top: 0; */
+
+ position: -webkit-fixed;
+
+z-index: 100;
+}
+.fa-address-card {
+  position:fixed;
+  /* top: 0; */
+
+ position: -webkit-fixed;
+
+z-index: 100;
+}
+.fa-guitar {
+  position:fixed;
+  /* top: 0; */
+
+ position: -webkit-fixed;
+
+z-index: 100;
+}
+.fa-envelope {
   position:fixed;
   /* top: 0; */
 
