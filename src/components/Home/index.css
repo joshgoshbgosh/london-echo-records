@@ -83,17 +83,31 @@ margin: 2%;
 
 }
 .cara {
-  margin-top: -32%;
+  margin-top: -25%;
+}
+.caramobile {
+  margin-top: -125%;
 }
 .sidenav{
   color:red;
   font-size: 23px;
   margin-top: 2%;
-  margin-bottom:5.9%;
+  margin-bottom:4%;
   text-align: right;
   margin-right: 10%;
 }
 .sidenav:hover {
+  color:red;
+}
+.sidenavmobile {
+  color:red;
+  font-size: 23px;
+  margin-top: 2%;
+  margin-bottom:30%;
+  text-align: right;
+  margin-right: 10%;
+}
+.sidenavmobile:hover {
   color:red;
 }
 .fa-home  {

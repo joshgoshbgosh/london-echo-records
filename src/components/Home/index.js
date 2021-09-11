@@ -52,13 +52,17 @@ class Home extends Component {
     return (
       <div>
       <div className="dots">
-      <a className="dothome sidenav"href="#section1"><i class="fas fa-home"></i></a>
-      <a className="dotabout sidenav"href="#section2"><i class="far fa-address-card"></i></a>
-      <a className="dotstudio sidenav"href="#section3"><i class="fas fa-guitar"></i></a>
-      <a className="dotcontact sidenav"href="#section4"><i class="fas fa-envelope"></i></a>
+      <a className="dothome sidenav d-none d-md-block"href="#section1"><i class="fas fa-home"></i></a>
+      <a className="dotabout sidenav d-none d-md-block"href="#section2"><i class="far fa-address-card"></i></a>
+      <a className="dotstudio sidenav d-none d-md-block"href="#section3"><i class="fas fa-guitar"></i></a>
+      <a className="dotcontact sidenav d-none d-md-block"href="#section4"><i class="fas fa-envelope"></i></a>
+      <a className="dothome sidenavmobile d-block d-sm-none"href="#section1"><i class="fas fa-home"></i></a>
+      <a className="dotabout sidenavmobile d-block d-sm-none"href="#section2"><i class="far fa-address-card"></i></a>
+      <a className="dotstudio sidenavmobile d-block d-sm-none"href="#section3"><i class="fas fa-guitar"></i></a>
+      <a className="dotcontact sidenavmobile d-block d-sm-none"href="#section4"><i class="fas fa-envelope"></i></a>
       </div>
 <div id="section1">
-      <Carousel fade className="cara">
+      <Carousel fade className="cara d-none d-md-block">
 <Carousel.Item interval={4000}>
   <img
     className="d-block w-100"
@@ -91,6 +95,43 @@ class Home extends Component {
     src={utwoSlide}
     alt="Fourth slide"
   />
+
+
+</Carousel.Item>
+</Carousel>
+<Carousel fade className="caramobile d-block d-sm-none">
+<Carousel.Item interval={4000}>
+<img
+className="d-block w-100"
+src={coldplaySlide}
+alt="First slide"
+/>
+
+</Carousel.Item>
+<Carousel.Item interval={4000}>
+<img
+className="d-block w-100"
+src={beatlesSlide}
+alt="Second slide"
+/>
+
+
+</Carousel.Item>
+<Carousel.Item interval={4000}>
+<img
+className="d-block w-100"
+src={lumineersSlide}
+alt="Third slide"
+/>
+
+
+</Carousel.Item>
+<Carousel.Item interval={4000}>
+<img
+className="d-block w-100"
+src={utwoSlide}
+alt="Fourth slide"
+/>
 
 
 </Carousel.Item>
