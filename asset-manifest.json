@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/london-echo-records/static/css/main.2dad1c54.chunk.css",
+    "main.css": "/london-echo-records/static/css/main.af8ab3a8.chunk.css",
     "main.js": "/london-echo-records/static/js/main.da80f54a.chunk.js",
     "main.js.map": "/london-echo-records/static/js/main.da80f54a.chunk.js.map",
     "runtime-main.js": "/london-echo-records/static/js/runtime-main.bff4f6b6.js",
@@ -12,7 +12,7 @@
     "static/js/3.e1771e00.chunk.js.map": "/london-echo-records/static/js/3.e1771e00.chunk.js.map",
     "index.html": "/london-echo-records/index.html",
     "static/css/2.4be38407.chunk.css.map": "/london-echo-records/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.2dad1c54.chunk.css.map": "/london-echo-records/static/css/main.2dad1c54.chunk.css.map",
+    "static/css/main.af8ab3a8.chunk.css.map": "/london-echo-records/static/css/main.af8ab3a8.chunk.css.map",
     "static/js/2.b5427fa5.chunk.js.LICENSE.txt": "/london-echo-records/static/js/2.b5427fa5.chunk.js.LICENSE.txt",
     "static/media/acoustic.5cbfe098.jpg": "/london-echo-records/static/media/acoustic.5cbfe098.jpg",
     "static/media/afrank.929e3a71.jpg": "/london-echo-records/static/media/afrank.929e3a71.jpg",
@@ -57,7 +57,7 @@
     "static/js/runtime-main.bff4f6b6.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.b5427fa5.chunk.js",
-    "static/css/main.2dad1c54.chunk.css",
+    "static/css/main.af8ab3a8.chunk.css",
     "static/js/main.da80f54a.chunk.js"
   ]
 }
