@@ -86,7 +86,7 @@ margin: 2%;
   margin-top: -25%;
 }
 .caramobile {
-  margin-top: -125%;
+  margin-top: -108%;
 }
 .sidenav{
   color:red;
@@ -101,11 +101,11 @@ margin: 2%;
 }
 .sidenavmobile {
   color:red;
-  font-size: 23px;
+  font-size: 26px;
   margin-top: 2%;
-  margin-bottom:30%;
+  margin-bottom:25%;
   text-align: right;
-  margin-right: 10%;
+  margin-right: 17%;
 }
 .sidenavmobile:hover {
   color:red;
